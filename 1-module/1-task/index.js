@@ -3,5 +3,5 @@ function factorial(n) {
     for (let x = 0; x < n; x++) {
         fact *= n - x;
     }
-    alert(fact);
+    return fact;
 }
