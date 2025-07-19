@@ -7,7 +7,7 @@
         "test": "test"
     },
     "scripts": {
-        "test": "karma",
+        "test": "karma start karma.conf.js --single-run",
         "karma": "karma start karma.conf.js",
         "lint": "eslint \"./*-module/**/*.js\"",
         "lint:fix": "eslint --fix \"./*-module/**/*.js\""
