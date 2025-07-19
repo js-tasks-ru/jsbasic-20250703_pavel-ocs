@@ -8,16 +8,11 @@ function print(text) {
 /**
  * Эту функцию нужно поменять так,
  * чтобы функция sayHello работала корректно
+ * @param {string | null} name
+ * @returns {boolean}
  */
 function isValid(name) {
-    if (!name) {
-        return false;
-    }
-    let trimmedName = name.trim();
-
-    return trimmedName.length >= 4 &&
-        trimmedName !== "" &&
-        !trimmedName.includes(' ');
+    // ваш код...
 }
 
 function sayHello() {
