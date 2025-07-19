@@ -12,7 +12,14 @@ function print(text) {
  * @returns {boolean}
  */
 function isValid(name) {
-    // ваш код...
+    if (!name) {
+        return false;
+    }
+    let trimmedName = name.trim();
+
+    return trimmedName.length >= 4 &&
+        trimmedName !== "" &&
+        !trimmedName.includes(' ');
 }
 
 function sayHello() {
