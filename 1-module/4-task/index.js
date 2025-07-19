@@ -1,0 +1,3 @@
+function checkSpam(str) {
+    // мой код...
+}
