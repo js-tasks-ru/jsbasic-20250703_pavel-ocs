@@ -4,9 +4,7 @@ function initCarousel() {
     const arrowLeft = document.querySelector('.carousel__arrow_left');
     const caruselInner = document.querySelector('.carousel__inner');
     const caruselInnerWidth = caruselInner.offsetWidth;
-    const slideCount = caruselInner.childElementCount;
     const slides = document.querySelectorAll('.carousel__slide');
-    let activeSlide = slides[0].classList.add('active');
 
 
     let i = 1;
